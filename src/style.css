@@ -109,30 +109,13 @@ p {
   max-height: 40px;
 }
 
-nav {
-  padding: 20px 0;
+.active {
+  color: var(--branding-color) !important;
 }
 
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 42px;
-  margin-left: 15px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #272124;
-  transition: all 100ms ease-in-out;
-}
-
-nav li.active a,
-nav a:hover {
-  color: var(--branding-color);
+.nav-item {
+  padding: 0 10px;
+  line-height: 25px;
 }
 
 @media (max-width: 900px) {
