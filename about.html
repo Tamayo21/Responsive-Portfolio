@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is about Irene Tamayo as a multimedia designer and front-end developer based in Japan."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -37,8 +41,8 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-white">
       <div class="container">
-        <a class="navbar-brand" href="/"
-          ><img src="images/logo.png" alt=""
+        <a class="navbar-brand" href="/" title="Homepage"
+          ><img src="images/logo.png" alt="Irene Tamayo Logo"
         /></a>
         <button
           class="navbar-toggler"
@@ -54,23 +58,31 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">Home</a>
+              <a class="nav-link" aria-current="page" href="/" title="Homepage"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/about.html">About</a>
+              <a class="nav-link active" href="/about.html" title="About Irene"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/work.html">Work</a>
+              <a class="nav-link" href="/work.html" title="Irene's work"
+                >Work</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
+              <a class="nav-link" href="/contact.html" title="Contact Irene"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="content-container">
+    <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
           <div class="content">
@@ -94,15 +106,79 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="#" target="_blank" class="btn btn-branding"
-              >See my projects</a
-            >
+            <a href="/work.html" class="btn btn-branding">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
           <img src="images/pic.png" alt="" class="img-fluid" />
         </div>
       </div>
+
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Contact Irene"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div>
+          <div class="d-flex justify-content-center mb-5">
+            <a
+              href="mailto:irenetamayo90@gmail.com"
+              class="email-link"
+              title="Email Irene"
+              >irenetamayo90@gmail.com
+            </a>
+          </div>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/tamayo_mochi"
+            target="_blank"
+            class="instagram"
+            title="Instagram profile"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://github.com/Tamayo21"
+            target="_blank"
+            class="github"
+            title="GitHub profile"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="www.linkedin.com/in/irene-tamayo"
+            target="_blank"
+            class="linkedin"
+            title="LinkedIn profile"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          This project is coded by Irene Tamayo and it is
+          <a
+            href="https://github.com/Tamayo21"
+            target="_blank"
+            class="github"
+            title="GitHub profile"
+          >
+            open-sourced
+          </a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>
