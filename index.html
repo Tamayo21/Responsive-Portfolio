@@ -24,7 +24,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap"
       rel="stylesheet"
     />
     <script
@@ -40,10 +40,13 @@
     <title>Multimedia designer and Front-end developer - Irene Tamayo</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-white">
+    <nav class="navbar navbar-expand-lg bg-custom">
       <div class="container">
         <a class="navbar-brand" href="/" title="Homepage"
-          ><img src="images/logo.png" alt="Irene Tamayo Logo"
+          ><img
+            src="images/logo_tamayo.png"
+            alt="Irene Tamayo Logo"
+            class="logo"
         /></a>
         <button
           class="navbar-toggler"
@@ -87,23 +90,47 @@
       </div>
     </nav>
     <div class="hero">
-      <p>☕Hello! I am</p>
-      <h1>Irene Tamayo</h1>
-      <h2 class="mb-5">
-        <span
-          style="
-            background: linear-gradient(0deg, #fffc66 50%, transparent 50%);
-          "
-        >
-          Multimedia Designer and Front-end developer based in Japan
-        </span>
-      </h2>
-      <div>
-        <a href="/contact.html" class="btn btn-branding">Contact me</a>
+      <div class="row">
+        <div class="index col-lg-6">
+          <img
+            src="./images/irene.png"
+            alt="Girl working on laptop"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-about">
+            <p>☕Hello! I am</p>
+            <h1>Irene Tamayo</h1>
+            <h2 class="mb-5">
+              <span
+                style="
+                  background: linear-gradient(
+                    0deg,
+                    #fffba3 50%,
+                    transparent 50%
+                  );
+                "
+              >
+                Multimedia Designer & Front-end developer based in Japan
+              </span>
+            </h2>
+            <div>
+              <a href="/contact.html" class="btn btn-branding">Contact me</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="container">
-      <p class="text-center m-5">Featured Projects</p>
+      <p class="feature text-center m-5">
+        <span
+          style="
+            background: linear-gradient(0deg, #fffba3 50%, transparent 50%);
+          "
+          >Featured Projects</span
+        >
+      </p>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <img
@@ -168,7 +195,7 @@
         </div>
         <div class="col">
           <div class="project-description">
-            <h2 class="mb-5">Lingua Language Learning App</h2>
+            <h2 class="mb-5">Lingua Learning App</h2>
             <p class="mb-5 text-muted">
               Lingua is a language-learning website and mobile app that help
               users to learn and improve their target languages, improve users’
