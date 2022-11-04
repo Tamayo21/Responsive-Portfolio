@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #175a2f;
-  --secondary-color: #fff7df;
+  --branding-color: #ff6654;
+  --secondary-color: #fff5f4;
   --heading-font-family: "Roboto Slab", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -50,15 +50,11 @@ p {
 }
 
 .hero img {
-  width: 500px;
-  height: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero-about {
-  margin-top: 80px;
+  margin-top: 125px;
 }
 
 .hero p {
@@ -75,8 +71,13 @@ p {
   font-size: 24px;
 }
 
+.my-services {
+  margin-top: 120px;
+}
+
 .feature {
   font-size: 32px;
+  font-weight: bold;
 }
 
 .btn-branding {
@@ -85,7 +86,7 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 .btn-branding:hover {
@@ -99,7 +100,7 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 .btn-branding-outline:hover {
@@ -112,6 +113,22 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  color: var(--branding-color);
+}
+
+.service {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+.service:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.service-text {
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .project-description {
@@ -157,6 +174,10 @@ p {
 .nav-item {
   padding: 0 10px;
   line-height: 25px;
+}
+
+.nav-link:hover {
+  color: var(--branding-color);
 }
 
 footer {
@@ -216,6 +237,10 @@ footer .social-links a:hover {
     margin-top: 40px;
   }
 
+  .my-services {
+    margin-top: 80px;
+  }
+
   .icons {
     max-width: 150px;
   }
@@ -225,12 +250,16 @@ footer .social-links a:hover {
     text-align: center;
   }
 
+  .project-description h2 {
+    font-size: 30px;
+  }
+
   .content {
     text-align: center;
     padding: 0;
   }
 
   .feature {
-    font-size: 30px;
+    font-size: 35px;
   }
 }
