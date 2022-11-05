@@ -1,6 +1,10 @@
 :root {
   --branding-color: #ff6654;
-  --secondary-color: #fff5f4;
+  --secondary-color: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 214, 171) 0%,
+    rgb(255, 182, 182) 90%
+  );
   --heading-font-family: "Roboto Slab", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -114,16 +118,22 @@ p {
   margin-left: auto;
   margin-right: auto;
   color: var(--branding-color);
+  transition: transform 0.25s;
+  cursor: pointer;
+}
+
+.icons:hover {
+  transform: scale(1.1);
 }
 
 .service {
   text-decoration: none;
-  color: var(--branding-color);
+  color: black;
 }
 
 .service:hover {
   text-decoration: none;
-  color: black;
+  color: var(--branding-color);
 }
 
 .service-text {
@@ -206,8 +216,8 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 0 20px;
-  color: var(--branding-color);
-  background: var(--secondary-color);
+  color: white;
+  background: var(--branding-color);
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
@@ -215,8 +225,11 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: white;
-  background: var(--branding-color);
+  transform: scale(1.1);
+}
+
+.card {
+  padding: 20px;
 }
 
 @media (max-width: 900px) {
@@ -237,6 +250,10 @@ footer .social-links a:hover {
     margin-top: 40px;
   }
 
+  .hero-about p {
+    font-size: 32px;
+  }
+
   .my-services {
     margin-top: 80px;
   }
@@ -251,7 +268,7 @@ footer .social-links a:hover {
   }
 
   .project-description h2 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .content {
