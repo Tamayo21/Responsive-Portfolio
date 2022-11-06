@@ -276,6 +276,10 @@ footer .social-links a:hover {
     margin-top: 80px;
   }
 
+  .aboutme {
+    margin-top: 0;
+  }
+
   .about-card h1 {
     font-size: 28px;
   }
@@ -302,7 +306,11 @@ footer .social-links a:hover {
     font-size: 35px;
   }
 
-  footer .email-link {
+  footer .connect-link {
     font-size: 18px;
+  }
+
+  .source {
+    font-size: 12px;
   }
 }
