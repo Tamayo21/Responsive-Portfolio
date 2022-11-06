@@ -157,6 +157,10 @@ p {
   clip-path: circle(40% at 50% 50%);
 }
 
+.caption {
+  font-size: 20px;
+}
+
 .project-description {
   padding: 120px 60px;
 }
@@ -286,6 +290,10 @@ footer .social-links a:hover {
 
   .icons {
     max-width: 150px;
+  }
+
+  .caption {
+    font-size: 18px;
   }
 
   .project-description {
