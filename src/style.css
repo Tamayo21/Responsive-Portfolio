@@ -206,6 +206,11 @@ p {
   color: var(--branding-color);
 }
 
+.dropdown-menu a:hover {
+  background: var(--branding-color);
+  color: white;
+}
+
 .contact-links a {
   text-decoration: none;
   color: var(--branding-color);
